@@ -1,13 +1,45 @@
-import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import AppRouter from './components/AppRouter/AppRouter';
-import Navbar from './components/Navbar/Navbar';
+
+
+import { Route } from 'react-router';
+
+import Home from './components/Adina/Adina';
+
+
+import Layout from './components/Layout/Layout'
+
+
+
 
 function App() {
-    return ( <div className = "App" >
-        <BrowserRouter >
-        < Navbar/> <AppRouter/> </BrowserRouter> 
-        </div>
+    return ( < div className = "App" >
+        <
+        div className = "Toolbar" >
+
+        <
+        Layout / >
+        <
+        /div>
+
+
+        <
+        Route path = "/"
+        component = { Home }
+        exact / >
+        <
+        Route path = "/musec"
+        component = { Home }
+        />   <Route path = "/anime
+        "
+        component = { Home }
+        />  <Route path = "/redux
+        "
+        component = { Home }
+        /> 
+
+
+        <
+        /div >
     );
 }
 
