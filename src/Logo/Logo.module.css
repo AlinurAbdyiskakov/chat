@@ -1,0 +1,17 @@
+.Logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+}
+
+.Logo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.Logo h1 {
+    margin-top: 20px;
+}

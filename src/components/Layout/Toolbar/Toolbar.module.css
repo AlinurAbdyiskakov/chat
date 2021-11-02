@@ -1,0 +1,21 @@
+.Toolbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'Redressed', cursive;
+    top: 0;
+    left: 0;
+    padding: 10px 1rem;
+    z-index: 1;
+    font-size: 2rem;
+    min-width: 100%;
+    color: white;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(145, 62, 135, 1) 18%, rgba(186, 34, 134, 1) 45%, rgba(203, 33, 79, 1) 83%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 0 0 10px rgba(131, 129, 129, 0.5);
+}
+
+@media (max-width: 940px) {
+    .Toolbar nav {
+        display: none;
+    }
+}

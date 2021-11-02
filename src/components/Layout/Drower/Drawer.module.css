@@ -1,0 +1,26 @@
+.Drawer .content {
+    background: linear-gradient(to top, rgba(19, 83, 158, 1) 8%, rgba(145, 62, 135, 1) 21%, rgba(186, 34, 134, 1) 59%, rgba(203, 33, 79, 1) 90%, rgba(0, 212, 255, 1) 100%);
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    padding-top: .3rem;
+    padding-left: .1rem;
+    z-index: 1;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.closed {
+    transform: translateX(-260px);
+}
+
+@media (min-width: 960px) {
+    .Drawer {
+        display: none;
+    }
+}
