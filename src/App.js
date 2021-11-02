@@ -4,12 +4,10 @@ import AppRouter from './components/AppRouter/AppRouter';
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
-    return ( < div className = "App" >
-        <
-        BrowserRouter >
-        <
-        AppRouter / > < Navbar / > < /BrowserRouter>  <
-        /div>
+    return ( <div className = "App" >
+        <BrowserRouter >
+        < Navbar/> <AppRouter/> </BrowserRouter> 
+        </div>
     );
 }
 
