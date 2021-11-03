@@ -40,7 +40,8 @@ function Adina() {
         alt = "img5" / > < /div></div > < /div> <
         footer > < img alt = "whatsApp icons"
         src = { WhatsApp }
-        /><span className={classes.helo}>+7 996 627 82 73</span > < /footer> <
+        /><span className={classes.helo}>+7 996 627 82 73</span > < span > -Adina < /span></footer >
+        <
         /div>
     )
 }
