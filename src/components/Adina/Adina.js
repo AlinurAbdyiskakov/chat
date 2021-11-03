@@ -5,6 +5,7 @@ import img2 from '../../Imges/img2.jpg'
 import img3 from '../../Imges/img3.jpg'
 import img4 from '../../Imges/sert.jpg'
 import img5 from '../../Imges/sert2.jpeg'
+import WhatsApp from '../../Imges/whatsapp.png'
 
 function Adina() {
     return ( < div className = { classes.Adina } >
@@ -37,6 +38,9 @@ function Adina() {
         alt = "img4" / > < /div> <
         div className = { classes.phone } > < img src = { img5 }
         alt = "img5" / > < /div></div > < /div> <
+        footer > < img alt = "whatsApp icons"
+        src = { WhatsApp }
+        /><span className={classes.helo}>+7 996 627 82 73</span > < /footer> <
         /div>
     )
 }
