@@ -1,0 +1,15 @@
+.space label {
+    color: #C69C08;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h1 {
+    color: #C69C08;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+input {
+    width: 300px;
+}
