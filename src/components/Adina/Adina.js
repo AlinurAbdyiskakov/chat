@@ -3,7 +3,8 @@ import classes from './Adina.module.css'
 import img13 from '../../Imges/img1.jpg'
 import img2 from '../../Imges/img2.jpg'
 import img3 from '../../Imges/img3.jpg'
-
+import img4 from '../../Imges/sert.jpg'
+import img5 from '../../Imges/sert2.jpeg'
 
 function Adina() {
     return ( < div className = { classes.Adina } >
@@ -31,6 +32,11 @@ function Adina() {
 
         <
         /div> <
+        div className = { classes.Sertificat } > < div className = { classes.Zagalovok } > Сертификаты < /div> <
+        div className = { classes.icons } > < div className = { classes.phone } > < img src = { img4 }
+        alt = "img4" / > < /div> <
+        div className = { classes.phone } > < img src = { img5 }
+        alt = "img5" / > < /div></div > < /div> <
         /div>
     )
 }
