@@ -4,7 +4,7 @@ import './App.css';
 import { Route } from 'react-router';
 
 import Home from './components/Adina/Adina';
-
+import HOm1 from './components/Zapis/Zapis'
 
 import Layout from './components/Layout/Layout'
 
@@ -28,14 +28,8 @@ function App() {
         exact / >
         <
         Route path = "/musec"
-        component = { Home }
-        />   <Route path = "/anime
-        "
-        component = { Home }
-        />  <Route path = "/redux
-        "
-        component = { Home }
-        /> 
+        component = { HOm1 }
+        />  
 
 
         <
