@@ -1,6 +1,9 @@
 import React from 'react'
 import classes from './Adina.module.css'
 import img13 from '../../Imges/img1.jpg'
+import img2 from '../../Imges/img2.jpg'
+import img3 from '../../Imges/img3.jpg'
+
 
 function Adina() {
     return ( < div className = { classes.Adina } >
@@ -14,7 +17,20 @@ function Adina() {
         img className = { classes.img1 }
         src = { img13 }
         alt = "helo" / >
+
         <
+        div className = { classes.Conteiner } >
+        <
+        div className = { classes.img123 } > < div className = { classes.H1 } > < h1 > 1000 P < /h1></div > < img alt = "img2"
+        src = { img2 }
+        /></div >
+        <
+        div className = { classes.img123 } > < div className = { classes.H1 } > < h1 > 1000 P < /h1></div > < img alt = "img2"
+        src = { img3 }
+        /></div >
+
+        <
+        /div> <
         /div>
     )
 }
