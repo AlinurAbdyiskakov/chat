@@ -11,11 +11,12 @@ function Adina() {
 
 
         <
-        img src = { img13 }
+        img className = { classes.img1 }
+        src = { img13 }
         alt = "helo" / >
         <
         /div>
     )
 }
 
-export default Adina
+export default Adina;
