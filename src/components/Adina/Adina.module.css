@@ -31,3 +31,29 @@ p {
     max-width: 100%;
     max-height: 15%;
 }
+
+.Conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Conteiner .img123 {
+    margin: 20px;
+    border-radius: 25px;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(19, 83, 158, 1) 17%, rgba(34, 33, 60, 1) 45%, rgba(150, 129, 143, 1) 80%);
+}
+
+.Conteiner img {
+    border-radius: 30px;
+    width: 350px;
+    height: 350px
+}
+
+.H1 {
+    color: chartreuse;
+    font-size: 30px;
+    font-family: unset;
+}
