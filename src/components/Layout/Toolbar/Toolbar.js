@@ -4,16 +4,14 @@ import DrawerOpen from "../Drower/DrawerOpen/DrawerOpen";
 import classes from "./Toolbar.module.css";
 
 const Toolbar = ({ openDrawer }) => {
-    return ( < div className = { classes.Toolbar } >
-        <
-        Logo / >
-        <
-        nav > < Nav / > < /nav>
+    return ( <div className = { classes.Toolbar } >
+        <Logo/>
+        <nav > <Nav/> </nav>
 
 
         <
         DrawerOpen click = { openDrawer }
-        /> </div >
+        /> </div>
     );
 }
 

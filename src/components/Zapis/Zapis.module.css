@@ -1,4 +1,4 @@
-.space label {
+label {
     color: #C69C08;
     font-size: 25px;
     font-weight: 700;
@@ -12,4 +12,42 @@ h1 {
 
 input {
     width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: rgb(136, 134, 134) 1px solid;
+    text-align: center;
+}
+
+textarea {
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    height: 80px;
+}
+
+input:hover {
+    box-shadow: 0 0 15px black;
+}
+
+input:last-of-type {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    width: 200px;
+    padding: 5px;
+    background-color: greenyellow;
+}
+
+.Zapis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: indigo;
+    margin-top: -10px;
+    padding: 30px;
 }

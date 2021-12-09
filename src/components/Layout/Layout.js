@@ -6,16 +6,14 @@ import classes from "./Layout.module.css";
 const Layout = ({ children }) => {
     const [drawerOpen, setDrawerOpen] = useState(false);
 
-    return ( < div className = { classes.Layout } >
+    return ( <div className = { classes.Layout } >
         <
         Toolbar openDrawer = {
-            () => setDrawerOpen(true)
-        }
+            () => setDrawerOpen(true) }
         /> <Drawer open = { drawerOpen }
         closeDrawer = {
-            () => setDrawerOpen(false)
-        }
-        />  <main > { children } </main > < /div>
+            () => setDrawerOpen(false) }
+        />  <main > { children } </main > </div>
     );
 }
 

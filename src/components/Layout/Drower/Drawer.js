@@ -9,7 +9,7 @@ const Drawer = ({ open, closeDrawer }) => {
         open ? classes.open : classes.closed
     ];
 
-    return ( < div className = { classes.Drawer } >
+    return ( <div className = { classes.Drawer } >
         <
         Backdrop show = { open }
         click = { closeDrawer }
@@ -18,8 +18,7 @@ const Drawer = ({ open, closeDrawer }) => {
         <
         Nav / >
 
-        <
-        /div> </div >
+        </div> </div>
     );
 }
 

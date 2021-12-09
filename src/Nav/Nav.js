@@ -6,15 +6,12 @@ const Nav = () => {
 
     return ( < ul className = { classes.Nav } >
 
-        <
-        NavItem url = "/"
-        exact > Главный < /NavItem>  <
+        <NavItem url = "/"
+        exact > Главный </NavItem>  <
         NavItem url = "/musec" > Записаться:
-        <
-        /NavItem>
+        </NavItem>
 
-        <
-        /ul>
+        </ul>
     )
 }
 
