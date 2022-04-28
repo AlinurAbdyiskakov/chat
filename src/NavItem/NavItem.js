@@ -7,8 +7,7 @@ const NavItem = ({ url, children, exact }) => {
         <
         NavLink to = { url }
         activeClassName = { classes.active }
-        exact > { children } < /NavLink> <
-        /li>
+        exact > { children } < /NavLink> </li >
     );
 }
 

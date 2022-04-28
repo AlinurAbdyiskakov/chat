@@ -1,13 +1,13 @@
 import React from 'react'
 
-import classes from './sertificaton.module.css'
+
 import sert from '../../Imges/sert.jpg'
 import sert2 from '../../Imges/sert2.jpeg'
-import classes from './sertificstion.module.css'
+import classes from './Sert.module.css'
 
-function sertificaton() {
+function Sert() {
 
-    return ( < div className = { classes.sertification } >
+    return ( < div className = { classes.Sert } >
         <
         div > < img src = { sert }
         alt = 'sert' / > < /div> <
@@ -18,5 +18,4 @@ function sertificaton() {
         /div>
     )
 }
-
-export default sertificaton;
+export default Sert;

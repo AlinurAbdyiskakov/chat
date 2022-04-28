@@ -29,9 +29,8 @@ function Zapis() {
         placeholder = "Tel-number" / >
         <
         input type = "submit"
-        value = "Send" / > < /form> <
-        /div>
+        value = "Send" / > < /form> </div >
     )
 }
 
-export default Zapis
+export default Zapis;
