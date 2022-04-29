@@ -8,12 +8,9 @@ const Nav = () => {
 
         <
         NavItem url = "/"
-        exact > Главный < /NavItem>   <
-        NavItem url = "/musec2" > Сертификат <
-        /NavItem> <
-        NavItem url = "/musec" > Записаться:
-        <
-        /NavItem>
+        exact > Главный < /NavItem>  <
+        NavItem url = "/musec2" > Сертификат < /NavItem>  <
+        NavItem url = "/musec" > Записаться: < /NavItem>
 
 
         <

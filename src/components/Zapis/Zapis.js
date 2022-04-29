@@ -14,11 +14,19 @@ function Zapis() {
 
         <
         form className = { classes.Zapis }
-        onSubmit = { sendEmail } > < label > Name < /label><input name="lastname" type="text" placeholder="name"/ >
+        onSubmit = { sendEmail } >
         <
-        label > Email < /label><input name="email" type="email" placeholder="email"/ >
+        label > Name < /label> <
+        input name = "lastname"
+        type = "text"
+        placeholder = "name" / >
         <
-        label > message < /label> <
+        label > Email < /label> <
+        input name = "email"
+        type = "email"
+        placeholder = "email" / >
+        <
+        label > message < /label>  <
         textarea name = "ms"
         type = "text"
         placeholder = "message" / >
@@ -27,6 +35,7 @@ function Zapis() {
         input type = "tel"
         name = "tel"
         placeholder = "Tel-number" / >
+
         <
         input type = "submit"
         value = "Send" / > < /form> </div >
