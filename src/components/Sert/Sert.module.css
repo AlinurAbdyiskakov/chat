@@ -1,0 +1,7 @@
+.Sert img {
+    min-width: 500px;
+    min-height: 500px;
+    background-position: center;
+    background-size: 100%;
+    margin: 20px;
+}

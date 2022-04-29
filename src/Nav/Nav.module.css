@@ -28,7 +28,7 @@
     background-color: white;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1000px) {
     .Nav {
         flex-direction: column;
         margin-left: 20px;
