@@ -1,7 +1,14 @@
-.Sert img {
-    min-width: 500px;
-    min-height: 500px;
-    background-position: center;
-    background-size: 100%;
+.Sert1 {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Sert1 img {
     margin: 20px;
+    border-radius: 20px;
+    background-position: center;
+    min-width: 200px;
+    min-height: 50px;
 }
